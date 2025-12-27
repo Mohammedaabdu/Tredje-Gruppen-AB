@@ -8,7 +8,7 @@ import {
   type IconDefinition,
 } from "@fortawesome/free-solid-svg-icons";
 
-interface IService {
+export interface IService {
   icon: IconDefinition;
   title: string;
   description: string;
